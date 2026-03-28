@@ -1,45 +1,15 @@
 {
-  "name": "napcat-plugin-template",
-  "plugin": "插件模板",
+  "name": "napcat-plugin-simple-like",
+  "plugin": "赞我",   
   "version": "1.0.0",
-  "type": "module",
+  "description": "发送'赞我'即可自动点赞10次",
   "main": "index.mjs",
-  "description": "NapCat 插件开发模板 - 快速开始你的插件开发",
-  "author": "Your Name",
+  "author": "WDNMD",
   "license": "MIT",
-  "keywords": [
-    "napcat",
-    "plugin",
-    "qq",
-    "template"
-  ],
   "napcat": {
-    "tags": [
-      "工具"
-    ],
+    "plugin": "赞我插件",
     "minVersion": "4.14.0",
-    "homepage": ""
-  },
-  "dependencies": {
-    "napcat-types": "0.0.16"
-  },
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.3.1",
-    "@types/express": "^5.0.6",
-    "@types/node": "^20.19.33",
-    "napcat-plugin-debug-cli": "^1.2.8",
-    "typescript": "^5.9.3",
-    "vite": "^6.4.1",
-    "ws": "^8.19.0"
-  },
-  "scripts": {
-    "build": "vite build",
-    "build:webui": "cd src/webui && pnpm install && pnpm run build",
-    "dev:webui": "cd src/webui && pnpm run dev",
-    "watch": "vite build --watch",
-    "dev": "vite build --watch",
-    "push": "vite build",
-    "deploy": "vite build",
-    "typecheck": "tsc --noEmit"
+    "homepage": "",
+    "tags": ["实用工具", "互动"]
   }
 }
